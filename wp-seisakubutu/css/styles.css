@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+.page-main{
+	max-width: 860px;
+	background: pink;
+	padding: 10px;
+	margin: 0;
+}
+
+/* ここから必要 */
+.works {
+	max-width: 100%;
+}
+
+.work{
+	max-width: 100%;
+	display: flex;
+	margin-bottom: 20px;
+	border-bottom: lightgray 2px solid;
+}
+
+.work > img {
+	width: 25%;
+	margin: 10px auto;
+	box-shadow: 2px 2px 4px;
+	border-radius: 10px;
+}
+
+.work > p {
+	max-width: 75%;
+	margin: 10px 20px;
+	padding-top: 5px;
+}
+
+.work-title {
+	font-size: 24px;
+}
+
+/* .midashi {
+	text-align: center;
+} */
+
+/* .jisseki {
+	text-align: center;
+} */
+
+.jisseki-group {
+	max-width: 100%;
+	display: flex;
+}
+
+.jisseki-hitotu {
+	max-width: 50%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	display: block;
+	text-align: center;
+}
+
+.jisseki-hitotu > a > img {
+	width: 80%;
+}
+
+.jisseki-hitotu > a > img:hover {
+	opacity: 0.8;
+}
+
+/* .jisseki-hitotu > img {
+	width: 95%;
+} */
+
+@media screen and (max-width: 680px) {
+	.work {
+		width: 100%;
+		display: block;
+		margin-bottom: 60px;
+		text-align: center;
+	}
+
+	.work > img {
+		width: 50%;
+	}
+
+	.work > p {
+		max-width: 100%;
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+}
